@@ -17,6 +17,14 @@
 		}
 	}
 
+	&__aws {
+		height: 3rem;
+		shape-outside: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+		flex: 0 0 25%;
+	}
+
+
 	&__text-name {
 		flex: 0 0 60%;
 		//text-transform: uppercase;
