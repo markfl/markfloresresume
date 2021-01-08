@@ -50,6 +50,9 @@
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
+        &:hover {
+          text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+        }
       }
     }
   }
@@ -68,7 +71,7 @@
     font-size: 150%;
 
     &-detail {
-      list-style: none;
+      // list-style: none;
       display: inline-block;
 
       &-title {
@@ -89,7 +92,7 @@
     padding-top: 2rem;
 
     &-name {
-      list-style: none;
+      // list-style: none;
       display: grid;
       grid-template-columns: 50% 50%;
 
@@ -137,4 +140,8 @@
   animation-name: moveInRight;
   animation-duration: 1s;
   padding-bottom: 2rem;
+}
+
+li {
+  list-style: none;
 }
