@@ -145,17 +145,17 @@
   }
 
   // push me
-  &__pushme {
-    position: relative;
+  // &__pushme {
+  //  position: relative;
     // margin-top: 3.5rem;
-    margin-top: 1rem;
-  }
+  //  margin-top: 1rem;
+  // }
 
   // Icon
   &__icon {
     position: relative;
-    // margin-top: 3.5rem;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
+    // margin-top: 1.5rem;
 
     &,
     &::before,
