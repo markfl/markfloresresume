@@ -102,15 +102,9 @@ elements.nav.addEventListener("click", function () {
       <li class="navigation__list--item navigation__item"><a href="https://github.com/markfl/RefundsReturns" target="_blank" class="navigation__link"><span>10</span>Refunds-Returns</a></li>
       <li class="navigation__list--item navigation__item"><a href="https://github.com/markfl/iSeriesSource" target="_blank" class="navigation__link"><span>11</span>Miscellaneous Source On iSeries</a></li>
       <h2 class="navigation__list--item navigation__heading">Conversion Calculate to practice JavaScript, PHP and MySQL Work in progress</h2>
-      <li class="navigation__list--item navigation__item"><a href="concalc/dist/index.html" target="_blank" class="navigation__link"><span>12</span>Concersion Calculator</a><a href="https://github.com/markfl/concalcjavascript" target="_blank" class="navigation__github"><span>Source On Github</span></a></li>
+      <li class="navigation__list--item navigation__item"><a href="concalc/dist/index.html" target="_blank" class="navigation__link"><span>12</span>Conversion Calculator</a><a href="https://github.com/markfl/concalcjavascript" target="_blank" class="navigation__github"><span>Source On Github</span></a></li>
       <li class="navigation__list--item navigation__item"><a href="Sudoku/index.html" target="_blank" class="navigation__link"><span>13</span>Sudoku Cheat Calculator</a><a href="https://github.com/markfl/Sudoku" target="_blank" class="navigation__github"><span>Source On Github</span></a></li>
     `;
-    // <li class="navigation__list--item navigation__item"><a href="https://natoursfci.herokuapp.com/" target="_blank" class="navigation__link"><span>8</span>Natours Server Version</a><a href="https://github.com/markfl/notoursserver" target="_blank" class="navigation__github"><span>Source On Github</span></a></li>
-    // <h2 class="navigation__list--item navigation__heading">Object Oriented PHP & MVC - July 2019</h2>
-    // <li class="navigation__list--item navigation__item"><a href="/shareposts.dev" target="_blank" class="navigation__link"><span>5</span>SharePosts</a></li>
-    // <h2 class="navigation__list--item navigation__heading">Projects in PHP & MySQL - July 2019</h2>
-    // <li class="navigation__list--item navigation__item"><a href="/talkingspace/index.php" target="_blank" class="navigation__link"><span>8</span>Talking space php with MySQL</a></li>
-
     elements.navheader.insertAdjacentHTML("beforeend", markup);
   }
 });
