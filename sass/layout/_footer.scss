@@ -1,0 +1,55 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  padding: 2rem 0;
+  font-size: 200%;
+  color: $color-grey-light-1;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+  &__social {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+    &--links {
+      padding-left: 2rem;
+      color: $color-grey-light-1;
+    }
+  }
+}
+
+.footer__list li a:link,
+.footer__list li a:visited,
+.footer__social li a:link,
+.footer__social li a:visited {
+  text-decoration: none;
+  border: 0;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-linkedin {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+  color: #00aced;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
+
+.ion-social-linkedin:hover {
+  color: #517fa4;
+}

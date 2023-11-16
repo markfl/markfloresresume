@@ -1,0 +1,147 @@
+.header {
+  &__logo-box {
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  &__text {
+    &-name {
+      animation-name: moveInLeft;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      border: none;
+      border-radius: 0;
+
+      &:hover {
+        // transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+      }
+    }
+
+    &-address {
+      display: flex;
+      flex-direction: column;
+
+      &:hover {
+        // transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+      }
+
+      &-line1 {
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+      }
+
+      &-line2 {
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+      }
+
+      &-line3 {
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+      }
+
+      &-line4 {
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        &:hover {
+          text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+        }
+      }
+    }
+  }
+}
+
+.technical {
+  width: 75%;
+  padding-right: 2rem;
+  // display: flex;
+  flex-direction: column;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+
+  &__text {
+    font-weight: 400;
+    font-size: 150%;
+
+    &-detail {
+      // list-style: none;
+      display: inline-block;
+
+      &-title {
+        justify-self: start;
+        &:hover {
+          // transform: skewY(2deg) skewX(15deg) scale(1.1);
+          text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+        }
+      }
+    }
+  }
+
+  &__company {
+    font-weight: 400;
+    font-size: 150%;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    padding-top: 2rem;
+
+    &-name {
+      // list-style: none;
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      &-title {
+        justify-self: start;
+        &:hover {
+          // transform: skewY(2deg) skewX(15deg) scale(1.1);
+          text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+        }
+      }
+
+      &-date-of-service {
+        text-align: right;
+      }
+    }
+
+    &-location {
+      font-weight: 400;
+      font-size: 130%;
+    }
+
+    &-work {
+      font-size: 100%;
+
+      &-link {
+        &:link,
+        &:visited {
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-environment {
+      font-size: 100%;
+    }
+  }
+}
+
+.applications {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 400;
+  font-size: 150%;
+  background-color: rgb(204, 221, 224);
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  padding-bottom: 2rem;
+}
+
+li {
+  list-style: none;
+}

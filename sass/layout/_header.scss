@@ -1,0 +1,49 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-color: $color-main-background;
+
+	&__logo {
+		height: 15rem;
+		shape-outside: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+		flex: 0 0 25%;
+
+		&:hover {
+			// transform: scale(1.5) translateY(-0.5rem);
+			box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+			z-index: 20;
+		}
+	}
+
+	&__aws {
+		height: 3rem;
+		shape-outside: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+		flex: 0 0 25%;
+	}
+
+
+	&__text-name {
+		flex: 0 0 60%;
+		//text-transform: uppercase;
+		font-variant: small-caps;
+		font-size: 7rem;
+		letter-spacing: 0.2rem;
+		padding-left: 5rem;
+	}
+
+	&__text-address {
+		font-size: 3rem;
+	}
+}
+
+.certificate {
+	background-color: $color-main-background;
+}
+
+.certimg {
+	width: 48%;
+	height: 48%;
+}
